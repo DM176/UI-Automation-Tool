@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.virtualkeyboard.client.view.AttributesPageController">
+   <children>
+      <Label layoutX="27.0" layoutY="69.0" prefHeight="17.0" prefWidth="83.0" text="Attibutes" />
+      <TableView fx:id="attributeTable" editable="true" layoutX="17.0" layoutY="97.0" prefHeight="249.0" prefWidth="566.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="54.0" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="96.66666666666666">
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy></TableView>
+   </children>
+</AnchorPane>

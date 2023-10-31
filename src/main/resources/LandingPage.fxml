@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="parentAnchorPane" prefHeight="518.0" prefWidth="1083.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.virtualkeyboard.client.view.LandingPageController">
+   <children>
+      <Pane fx:id="headerPane" prefHeight="51.0" prefWidth="843.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="logoImageView" fitHeight="45.0" fitWidth="69.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+         </children></Pane>
+      <TabPane layoutX="-6.0" layoutY="48.0" prefHeight="425.0" prefWidth="799.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="-5.0" AnchorPane.leftAnchor="-6.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="48.0">
+        <tabs>
+          <Tab fx:id="automationTemplateTab" text="Automation">
+            <content>
+              <AnchorPane fx:id="automationTemplateAncherPane" minWidth="0.0" prefHeight="386.0" prefWidth="801.0">
+                     <children>
+
+                        <Button fx:id="executeProcess" layoutX="555.0" layoutY="346.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="107.0" text="Execute" AnchorPane.bottomAnchor="14.666666666666668" AnchorPane.rightAnchor="33.66666666666663" />
+                        <ComboBox fx:id="AutoComboForNewOrExisting" layoutX="95.0" layoutY="9.0" prefHeight="25.0" prefWidth="192.0" promptText="Existing" AnchorPane.leftAnchor="95.0" />
+                        <TextField fx:id="saveProcessTF" layoutX="428.0" layoutY="18.0" prefHeight="25.0" prefWidth="205.0" visible="false" AnchorPane.leftAnchor="428.0" />
+                        <Label layoutX="14.0" layoutY="13.0" text="Exsting/New" />
+                        <Label fx:id="saveProcessLabel" layoutX="325.0" layoutY="22.0" prefHeight="17.0" prefWidth="93.0" text="Process Name" visible="false" AnchorPane.leftAnchor="325.0" />
+                        <TextField fx:id="sNo" disable="true" layoutX="95.0" layoutY="56.0" prefHeight="25.0" prefWidth="216.0" />
+                        <ComboBox fx:id="eventType" layoutX="95.0" layoutY="91.0" prefHeight="25.0" prefWidth="216.0" />
+                        <Button fx:id="iconBrowse" layoutX="164.0" layoutY="136.0" mnemonicParsing="false" text="Browse" />
+                        <ImageView fx:id="iconImageView" fitHeight="45.0" fitWidth="54.0" layoutX="95.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" />
+                        <Separator layoutX="9.0" layoutY="43.0" prefHeight="6.0" prefWidth="679.0" />
+                        <TextArea fx:id="insertText" layoutX="498.0" layoutY="124.0" prefHeight="85.0" prefWidth="146.0" />
+                        <TextField fx:id="searchText" layoutX="498.0" layoutY="91.0" prefHeight="25.0" prefWidth="146.0" />
+                        <TextField fx:id="waitTime" layoutX="497.0" layoutY="221.0" prefHeight="25.0" prefWidth="152.0" text="1000" />
+                        <Label layoutX="11.0" layoutY="60.0" prefHeight="17.0" prefWidth="58.0" text="S/No" />
+                        <Label layoutX="11.0" layoutY="95.0" prefHeight="17.0" prefWidth="58.0" text="Event" />
+                        <Label layoutX="11.0" layoutY="140.0" prefHeight="17.0" prefWidth="58.0" text="Icon" />
+                        <Label layoutX="675.0" layoutY="140.0" prefHeight="17.0" prefWidth="58.0" text="Active" />
+                        <Label layoutX="379.0" layoutY="95.0" prefHeight="17.0" prefWidth="78.0" text="Search Text" />
+                        <Label layoutX="389.0" layoutY="225.0" prefHeight="17.0" prefWidth="58.0" text="Wait Time" />
+                        <Label layoutX="389.0" layoutY="163.0" prefHeight="17.0" prefWidth="58.0" text="Insert Text" />
+                        <CheckBox fx:id="active" layoutX="783.0" layoutY="140.0" mnemonicParsing="false" selected="true" />
+                        <Button fx:id="addRowBtn" layoutX="714.0" layoutY="255.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0" text="Add" />
+                         <TableView fx:id="eventTable" editable="true" layoutX="15.0" layoutY="290.0" prefHeight="108.0" prefWidth="1051.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="48.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="290.0">
+                             <columnResizePolicy>
+                                 <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                             </columnResizePolicy>
+                         </TableView>
+                        <Button fx:id="loadExcelBtn" layoutX="349.0" layoutY="9.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="93.0" text="Browse" textFill="#161616" />
+                        <TextField fx:id="excelPathTF" layoutX="457.0" layoutY="9.0" prefHeight="25.0" prefWidth="191.0" />
+                        <Label layoutX="675.0" layoutY="60.0" prefHeight="17.0" prefWidth="82.0" text="Mandatory" />
+                        <CheckBox fx:id="mondatoryCheckBox" layoutX="783.0" layoutY="60.0" mnemonicParsing="false" selected="true" />
+                        <ImageView fx:id="referenceImageView" fitHeight="35.0" fitWidth="54.0" layoutX="95.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label layoutX="9.0" layoutY="184.0" prefHeight="17.0" prefWidth="93.0" text="Reference Icon" />
+                        <Button fx:id="referenceBrowse" layoutX="164.0" layoutY="180.0" mnemonicParsing="false" text="Browse" />
+                        <Button fx:id="subEventsBtn" layoutX="875.0" layoutY="56.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="167.0" text="Create Sub Task" textOverrun="WORD_ELLIPSIS" wrapText="true" />
+                        <Label layoutX="675.0" layoutY="95.0" prefHeight="17.0" prefWidth="82.0" text="Events head" />
+                        <CheckBox fx:id="eventsHead" layoutX="783.0" layoutY="95.0" mnemonicParsing="false" />
+                        <TextField fx:id="descriptionTextField" layoutX="497.0" layoutY="56.0" prefHeight="25.0" prefWidth="147.0" />
+                        <Label layoutX="386.0" layoutY="60.0" prefHeight="17.0" prefWidth="78.0" text="Description" />
+                        <ListView fx:id="subProcessListView" layoutX="875.0" layoutY="87.0" prefHeight="159.0" prefWidth="166.0" />
+                        <Button fx:id="parentProcessBtn" layoutX="875.0" layoutY="255.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="166.0" text="Reload Parent Process" />
+                        <ComboBox fx:id="subProcessComboBox" layoutX="97.0" layoutY="221.0" prefHeight="25.0" prefWidth="212.0" />
+                        <Label layoutX="8.0" layoutY="225.0" text="Sub Process" />
+                        <Separator layoutX="834.0" layoutY="57.0" orientation="VERTICAL" prefHeight="200.0" />
+                        <ComboBox fx:id="referenceAlignCombo" layoutX="231.0" layoutY="180.0" prefHeight="25.0" prefWidth="69.0" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab fx:id="googleChatTab" text="Chat Automation">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="sheetTextField" layoutX="190.0" layoutY="173.0" prefHeight="25.0" prefWidth="357.0" />
+                        <Label layoutX="26.0" layoutY="177.0" prefHeight="17.0" prefWidth="164.0" text="Excel Sheet Name *" />
+                        <Label layoutX="26.0" layoutY="121.0" prefHeight="17.0" prefWidth="164.0" text="Excel Sheet Path " />
+                        <TextField fx:id="excelPathText" layoutX="190.0" layoutY="117.0" prefHeight="25.0" prefWidth="357.0" />
+                        <Label fx:id="chatResponse" layoutX="186.0" layoutY="153.0" prefHeight="66.0" prefWidth="258.0" textFill="#38383b" visible="false" wrapText="true" />
+                        <Button fx:id="startButton" layoutX="495.0" layoutY="223.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="Start" AnchorPane.leftAnchor="495.0" />
+                        <Label layoutX="26.0" layoutY="57.0" prefHeight="17.0" prefWidth="135.0" text="Message TextField Icon" />
+                        <ImageView fx:id="chatImageView" fitHeight="45.0" fitWidth="120.0" layoutX="186.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button fx:id="chatBrowse" layoutX="343.0" layoutY="53.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" text="Browse" />
+                     </children></AnchorPane>
+                </content>
+            </Tab>
+          <Tab text="Configuration">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="22.0" prefHeight="17.0" prefWidth="116.0" text="Screen Resolution" />
+                        <TextField fx:id="widthResolution" layoutX="123.0" layoutY="18.0" prefHeight="25.0" prefWidth="41.0" />
+                        <TextField fx:id="heightResolution" layoutX="191.0" layoutY="18.0" prefHeight="25.0" prefWidth="41.0" />
+                        <Label layoutX="173.0" layoutY="22.0" prefHeight="17.0" prefWidth="12.0" text="X" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

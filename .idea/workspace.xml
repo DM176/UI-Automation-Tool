@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="783a95e9-af04-4997-ba0d-cbf22c196e05" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NFM0tCsOq7jWGdqFiAA2VNU18g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Upwork\Intellij Projects\ScriptedVirtualKeyboard\EventFlow" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Upwork\Intellij Projects\ScriptedVirtualKeyboard\src\main\resources" />
+      <recent name="D:\Upwork\Intellij Projects\ScriptedVirtualKeyboard\main\resources" />
+      <recent name="D:\Upwork\Intellij Projects\ScriptedVirtualKeyboard\src\com\virtualkeyboard\client\view" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.virtualkeyboard.client" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.virtualkeyboard.client.models" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn deploy" />
+      <command value="mvn compile" />
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.virtualkeyboard.client.Main" />
+      <module name="ScriptedVirtualKeyboard" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-21\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.virtualkeyboard.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="783a95e9-af04-4997-ba0d-cbf22c196e05" name="Changes" comment="" />
+      <created>1679255159225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679255159225</updated>
+      <workItem from="1679255160930" duration="9804000" />
+      <workItem from="1679326895373" duration="2227000" />
+      <workItem from="1679334979260" duration="1290000" />
+      <workItem from="1679336587401" duration="6148000" />
+      <workItem from="1679426753951" duration="3509000" />
+      <workItem from="1679506041198" duration="7437000" />
+      <workItem from="1679596070892" duration="10596000" />
+      <workItem from="1679675993277" duration="4853000" />
+      <workItem from="1679925889357" duration="8228000" />
+      <workItem from="1680021751794" duration="7213000" />
+      <workItem from="1680109232292" duration="11587000" />
+      <workItem from="1680195562455" duration="14160000" />
+      <workItem from="1680343615866" duration="4137000" />
+      <workItem from="1680541112586" duration="16581000" />
+      <workItem from="1680626583716" duration="8873000" />
+      <workItem from="1680714513081" duration="7651000" />
+      <workItem from="1680815121866" duration="4433000" />
+      <workItem from="1680822247006" duration="1148000" />
+      <workItem from="1680886549518" duration="5305000" />
+      <workItem from="1680946937986" duration="7062000" />
+      <workItem from="1681145060522" duration="6114000" />
+      <workItem from="1681151215843" duration="9062000" />
+      <workItem from="1681318647233" duration="9723000" />
+      <workItem from="1681333909785" duration="3768000" />
+      <workItem from="1681473616394" duration="2320000" />
+      <workItem from="1681493190932" duration="2060000" />
+      <workItem from="1681495729961" duration="2899000" />
+      <workItem from="1681506215664" duration="2239000" />
+      <workItem from="1681580167482" duration="8196000" />
+      <workItem from="1681640672929" duration="6664000" />
+      <workItem from="1681647397300" duration="250000" />
+      <workItem from="1681668238266" duration="755000" />
+      <workItem from="1681755809194" duration="10843000" />
+      <workItem from="1681838320033" duration="8987000" />
+      <workItem from="1681848981610" duration="2135000" />
+      <workItem from="1681917725440" duration="9927000" />
+      <workItem from="1682012902536" duration="4352000" />
+      <workItem from="1682070850648" duration="3053000" />
+      <workItem from="1682073939480" duration="638000" />
+      <workItem from="1682074609306" duration="1301000" />
+      <workItem from="1682090427932" duration="6205000" />
+      <workItem from="1682157736631" duration="4916000" />
+      <workItem from="1682338875319" duration="9716000" />
+      <workItem from="1682421582968" duration="10213000" />
+      <workItem from="1682452273925" duration="6661000" />
+      <workItem from="1682524783761" duration="9363000" />
+      <workItem from="1682619403240" duration="5828000" />
+      <workItem from="1682938771798" duration="17342000" />
+      <workItem from="1683054970516" duration="4283000" />
+      <workItem from="1683137458302" duration="3988000" />
+      <workItem from="1683225447216" duration="5038000" />
+      <workItem from="1683303589882" duration="4078000" />
+      <workItem from="1683386477729" duration="7669000" />
+      <workItem from="1683453863935" duration="5094000" />
+      <workItem from="1683569217942" duration="7225000" />
+      <workItem from="1683646320700" duration="4529000" />
+      <workItem from="1683836469708" duration="3245000" />
+      <workItem from="1683922144751" duration="4667000" />
+      <workItem from="1683991249357" duration="6943000" />
+      <workItem from="1684083075250" duration="1118000" />
+      <workItem from="1684167338114" duration="1927000" />
+      <workItem from="1684169301895" duration="1496000" />
+      <workItem from="1684173251436" duration="1832000" />
+      <workItem from="1684262436394" duration="4421000" />
+      <workItem from="1684337966602" duration="9931000" />
+      <workItem from="1684609273513" duration="61000" />
+      <workItem from="1684609376191" duration="12000" />
+      <workItem from="1684609931054" duration="394000" />
+      <workItem from="1684610380354" duration="26000" />
+      <workItem from="1684610428769" duration="88000" />
+      <workItem from="1684612827312" duration="3146000" />
+      <workItem from="1684657800751" duration="1840000" />
+      <workItem from="1684676238992" duration="616000" />
+      <workItem from="1684784353729" duration="3368000" />
+      <workItem from="1684787750683" duration="2101000" />
+      <workItem from="1684951501646" duration="6946000" />
+      <workItem from="1685038690591" duration="3149000" />
+      <workItem from="1685115726522" duration="31000" />
+      <workItem from="1685126773559" duration="1067000" />
+      <workItem from="1685128249083" duration="6741000" />
+      <workItem from="1685178712409" duration="7041000" />
+      <workItem from="1685271779297" duration="6074000" />
+      <workItem from="1685378125361" duration="1659000" />
+      <workItem from="1685385724723" duration="3314000" />
+      <workItem from="1685475846057" duration="1810000" />
+      <workItem from="1685640075588" duration="2143000" />
+      <workItem from="1685729849150" duration="3909000" />
+      <workItem from="1685783064989" duration="1857000" />
+      <workItem from="1685786363459" duration="4532000" />
+      <workItem from="1685807671576" duration="4745000" />
+      <workItem from="1685872917370" duration="6049000" />
+      <workItem from="1685893136501" duration="3024000" />
+      <workItem from="1685981781897" duration="6740000" />
+      <workItem from="1686080159676" duration="199000" />
+      <workItem from="1686080384827" duration="1063000" />
+      <workItem from="1686081470777" duration="1990000" />
+      <workItem from="1686237739001" duration="1210000" />
+      <workItem from="1686249064933" duration="1033000" />
+      <workItem from="1686250869186" duration="5208000" />
+      <workItem from="1686335336351" duration="8186000" />
+      <workItem from="1686388026817" duration="2570000" />
+      <workItem from="1686409734060" duration="10644000" />
+      <workItem from="1686502172829" duration="3069000" />
+      <workItem from="1686592866393" duration="6047000" />
+      <workItem from="1686858341782" duration="14564000" />
+      <workItem from="1686994545783" duration="14162000" />
+      <workItem from="1687116944199" duration="3157000" />
+      <workItem from="1687200272338" duration="3832000" />
+      <workItem from="1687806300747" duration="3325000" />
+      <workItem from="1687895180205" duration="800000" />
+      <workItem from="1688117085864" duration="4600000" />
+      <workItem from="1688151119688" duration="1404000" />
+      <workItem from="1688198382032" duration="8194000" />
+      <workItem from="1688291532048" duration="7856000" />
+      <workItem from="1688324597841" duration="2315000" />
+      <workItem from="1688501769057" duration="1236000" />
+      <workItem from="1688581398768" duration="3500000" />
+      <workItem from="1688893613673" duration="8796000" />
+      <workItem from="1689264413721" duration="5150000" />
+      <workItem from="1689351124797" duration="8419000" />
+      <workItem from="1689450428618" duration="3820000" />
+      <workItem from="1689508322524" duration="4803000" />
+      <workItem from="1689611048805" duration="5038000" />
+      <workItem from="1689777291356" duration="9044000" />
+      <workItem from="1689869724006" duration="895000" />
+      <workItem from="1689870749438" duration="7759000" />
+      <workItem from="1690020277119" duration="5298000" />
+      <workItem from="1690393425566" duration="5757000" />
+      <workItem from="1690541356585" duration="2533000" />
+      <workItem from="1690624524405" duration="1743000" />
+      <workItem from="1690746819649" duration="4353000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/virtualkeyboard/client/process/ExcelProcessService.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/virtualkeyboard/client/view/LandingPageController.java</url>
+          <line>196</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/virtualkeyboard/client/view/LandingPageController.java</url>
+          <line>211</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/virtualkeyboard/client/comparing/image/ImageDetection.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/virtualkeyboard/client/Main.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/virtualkeyboard/client/view/LandingPageController.java</url>
+          <line>315</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
