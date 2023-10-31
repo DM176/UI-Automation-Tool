@@ -40,6 +40,8 @@ public class LandingPageController implements Initializable {
     @FXML
     private Button startButton;
     @FXML
+    private Button initiateButton;
+    @FXML
     private TextField sheetTextField;
     @FXML
     private TextField excelPathText;
@@ -438,6 +440,45 @@ public class LandingPageController implements Initializable {
 
                     Response response = processExecution.executeChatProcess(excelPathText.getText(), sheetTextField.getText(),chatImageView.getImage());
                   Util.showPopupMessage(Constant.Status.INFO, "Information Dialog", null, response.getMessage(), null).showAndWait();
+//                      chatResponse.setVisible(true);
+//                    chatResponse.setText(response.getMessage());
+                    long endTime = System.currentTimeMillis(); // get end time
+
+                    long duration = (endTime - startTime) / 60000; // calculate duration in minutes
+
+                    System.out.println("Start time: " + new Date(startTime));
+                    System.out.println("End time: " + new Date(endTime));
+                    System.out.println("Duration: " + duration + " minutes");
+                    stage.show();
+                } catch (Exception ex) {
+                    Util.showPopupMessage(Constant.Status.EXC, "Information Dialog", null, ex.getMessage(), null).showAndWait();
+//
+                }
+
+                System.out.println("Button clicked!");
+            });
+
+            /********************************************************
+             * *****************For Youtube Automation++++++++++++++++++
+             ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+            /**
+             * For yotube automation
+             */
+
+            initiateButton.setOnAction(event -> {
+
+
+                //  System.out.println(automationComboBox.getValue());
+                Stage stage = (Stage) initiateButton.getScene().getWindow();
+                try {
+
+                    stage.hide();
+                    Thread.sleep(5000);
+                    long startTime = System.currentTimeMillis();
+
+
+                    Response response = processExecution.executeTranscriptProcess();
+                    Util.showPopupMessage(Constant.Status.INFO, "Information Dialog", null, response.getMessage(), null).showAndWait();
 //                      chatResponse.setVisible(true);
 //                    chatResponse.setText(response.getMessage());
                     long endTime = System.currentTimeMillis(); // get end time

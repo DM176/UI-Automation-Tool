@@ -153,6 +153,25 @@ public class ProcessExecution {
     }
 
     /**
+     * implementation for executing the process with the help of implemented
+     * components.
+     *
+     * @throws Exception
+     */
+    public Response executeTranscriptProcess() throws Exception {
+        Response response=new Response();
+        try {
+            response.setStatus(Constant.Status.SUCCESS);
+            response.setMessage("Process Completed Successfully");
+            return  response;
+        }catch (Exception ex){
+            ex.printStackTrace();
+            throw ex;
+        }
+
+    }
+
+    /**
      * event code
      * @param eventProcess
      * @return
