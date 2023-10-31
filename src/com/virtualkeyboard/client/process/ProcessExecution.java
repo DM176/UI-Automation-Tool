@@ -82,7 +82,7 @@ public class ProcessExecution {
             ExcelProcessService executionProcess = new ExcelProcessService();
             List<EventProcess> eventProcesses = executionProcess.readProcessFlow(path, sheet);
             //Point point=getPointForClick("chatsearch.png");
-            Point point = ImageDetection.returnLocationOfContentInImage("Find people,", ScreenShot.captureScreenShotofScreenSize());
+            Point point = ImageDetection.returnLocationOfContentInImage("searchin", ScreenShot.captureScreenShotofScreenSize());
             Point pointForContent=null;
             if (point == null) {
                 response.setMessage("Unable to find search text field for email insertion");
