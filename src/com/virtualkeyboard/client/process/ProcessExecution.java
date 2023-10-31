@@ -158,9 +158,35 @@ public class ProcessExecution {
      *
      * @throws Exception
      */
-    public Response executeTranscriptProcess() throws Exception {
+    public Response executeTranscriptProcess(Image threeDotsImage, Image showTranscriptImage) throws Exception {
         Response response=new Response();
+        Point pointForContent=null;
         try {
+            //clicking three dots
+            EventProcess clickThreeDotsEvent=new EventProcess();
+            clickThreeDotsEvent.setIconImage(threeDotsImage);
+            pointForContent = ImageDetection.returnLocationOfIconInScreenShot(ScreenShot.captureScreenShotofScreenSize(), clickThreeDotsEvent);
+            if(pointForContent==null){
+                response.setMessage("Unable to find three dots");
+                response.setStatus(Constant.Status.FAIL);
+                return response;
+            }
+            MouseControl.singleClick((int) pointForContent.x, (int) pointForContent.y);
+
+            //clicking show transcript
+            EventProcess clickShowTranscriptEvent=new EventProcess();
+            clickShowTranscriptEvent.setIconImage(showTranscriptImage);
+            pointForContent = ImageDetection.returnLocationOfIconInScreenShot(ScreenShot.captureScreenShotofScreenSize(), clickShowTranscriptEvent);
+            if(pointForContent==null){
+                response.setMessage("Unable to find show transcript");
+                response.setStatus(Constant.Status.FAIL);
+                return response;
+            }
+            MouseControl.singleClick((int) pointForContent.x, (int) pointForContent.y);
+
+
+
+            //returning success
             response.setStatus(Constant.Status.SUCCESS);
             response.setMessage("Process Completed Successfully");
             return  response;
